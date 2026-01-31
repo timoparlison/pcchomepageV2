@@ -1,0 +1,259 @@
+{
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Kontakt aufnehmen",
+    "getStarted": "Loslegen",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "nav": {
+    "home": "Startseite",
+    "platforms": "Vibe Starter",
+    "erp": "ERP-System",
+    "rental": "Vermietungsplattform",
+    "talent": "Vermittlung",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  },
+  "hero": {
+    "badge": "Softwareentwicklung & IT-Beratung",
+    "title": "Code mit Stil.",
+    "titleHighlight": "Lösungen mit Substanz.",
+    "description": "Wir verbinden technische Exzellenz mit unternehmerischem Denken. Maßgeschneiderte Software, erfahrene Spezialisten und innovative Plattformen für Ihren Erfolg.",
+    "cta": "Projekte entdecken",
+    "ctaSecondary": "Kontakt"
+  },
+  "mission": {
+    "label": "Unsere Vision",
+    "statement": "Eine Welt, in der jedes Unternehmen seine Software selbst gestalten kann.",
+    "tagline": "Eine Zukunft",
+    "taglineEnd": "in der Software kein Engpass mehr ist, sondern Ausdruck eurer Ideen."
+  },
+  "businessAreas": {
+    "title": "Unsere Geschäftsbereiche",
+    "subtitle": "Drei Säulen für digitale Exzellenz",
+    "sparring": {
+      "title": "Vibecode Sparring",
+      "description": "KI-gestützte Entwicklung mit erfahrenen Architekten. Wir arbeiten mit Cursor, Claude und modernen AI-Tools, um schneller bessere Software zu bauen.",
+      "features": ["AI-Pair-Programming", "Code Reviews", "Architekturberatung"]
+    },
+    "talent": {
+      "title": "Talent Network",
+      "description": "Erfahrene IT-Spezialisten für Ihre Projekte. Entwickler, Data Engineers und Architekten mit nachgewiesener Expertise.",
+      "features": ["Senior Developer", "Data Engineers", "Solution Architects"]
+    },
+    "platforms": {
+      "title": "Vibe Starter",
+      "description": "Fertige Starter-Templates und Boilerplates für den schnellen Projektstart. Von ERP-Systemen bis zu spezialisierten Branchenlösungen.",
+      "features": ["Starter Templates", "Branchenlösungen", "SaaS-Boilerplates"]
+    }
+  },
+  "about": {
+    "title": "Über Parlison Code Couture",
+    "description": "Gegründet von erfahrenen IT-Unternehmern, verbinden wir technische Expertise mit unternehmerischem Weitblick. Unser Name steht für präzise Handwerkskunst in der Softwareentwicklung – Code Couture eben.",
+    "values": {
+      "quality": {
+        "title": "Qualität",
+        "description": "Sauberer Code, durchdachte Architektur, nachhaltige Lösungen."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Moderne Technologien sinnvoll eingesetzt, nicht als Selbstzweck."
+      },
+      "partnership": {
+        "title": "Partnerschaft",
+        "description": "Langfristige Zusammenarbeit auf Augenhöhe."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit für Ihr nächstes Projekt?",
+    "description": "Lassen Sie uns gemeinsam herausfinden, wie wir Sie unterstützen können.",
+    "button": "Kontakt aufnehmen"
+  },
+  "platforms": {
+    "title": "Vibe Starter",
+    "subtitle": "Fertige Starter-Templates für den schnellen Projektstart.",
+    "erp": {
+      "title": "ERP-System",
+      "subtitle": "Integrierte Unternehmenslösung",
+      "description": "Ein modernes, modulares ERP-System, das speziell für mittelständische Unternehmen entwickelt wurde. Flexibel anpassbar und nahtlos integrierbar.",
+      "features": {
+        "modular": {
+          "title": "Modularer Aufbau",
+          "description": "Wählen Sie nur die Module, die Sie brauchen. Erweitern Sie bei Bedarf."
+        },
+        "integration": {
+          "title": "Nahtlose Integration",
+          "description": "API-first Design für einfache Anbindung bestehender Systeme."
+        },
+        "analytics": {
+          "title": "Echtzeit-Analytics",
+          "description": "Dashboards und Reports für datengetriebene Entscheidungen."
+        },
+        "cloud": {
+          "title": "Cloud-Native",
+          "description": "Skalierbar, sicher und von überall erreichbar."
+        }
+      }
+    },
+    "rental": {
+      "title": "Vermietungsplattform",
+      "subtitle": "Digitale Vermietungslösung",
+      "description": "Eine spezialisierte Plattform für Vermietungsunternehmen. Von der Buchung über die Verwaltung bis zur Abrechnung – alles in einem System.",
+      "features": {
+        "booking": {
+          "title": "Online-Buchung",
+          "description": "24/7 Verfügbarkeit für Ihre Kunden mit intuitivem Buchungsprozess."
+        },
+        "inventory": {
+          "title": "Bestandsverwaltung",
+          "description": "Übersicht über alle Objekte, Verfügbarkeiten und Wartungszyklen."
+        },
+        "billing": {
+          "title": "Automatische Abrechnung",
+          "description": "Rechnungsstellung, Mahnwesen und Zahlungsabwicklung."
+        },
+        "reporting": {
+          "title": "Reporting",
+          "description": "Auslastungsanalysen und Umsatzberichte auf Knopfdruck."
+        }
+      }
+    }
+  },
+  "talent": {
+    "title": "Vermittlung",
+    "subtitle": "Erfahrene IT-Spezialisten für Ihre Projekte",
+    "description": "Wir vermitteln hochqualifizierte Freelancer und Experten für anspruchsvolle IT-Projekte. Alle Kandidaten sind persönlich geprüft und haben nachgewiesene Projekterfahrung.",
+    "roles": {
+      "developer": {
+        "title": "Senior Developer",
+        "description": "Full-Stack und spezialisierte Entwickler für Web, Mobile und Backend."
+      },
+      "dataEngineer": {
+        "title": "Data Engineer",
+        "description": "Experten für Datenpipelines, ETL-Prozesse und Data Warehousing."
+      },
+      "architect": {
+        "title": "Solution Architect",
+        "description": "Erfahrene Architekten für komplexe Systemlandschaften."
+      },
+      "devops": {
+        "title": "DevOps Engineer",
+        "description": "Spezialisten für CI/CD, Cloud-Infrastruktur und Automatisierung."
+      }
+    },
+    "founder": {
+      "title": "Gründer & Lead Consultant",
+      "name": "Timo",
+      "description": "Über 15 Jahre Erfahrung in der Softwareentwicklung und IT-Beratung. Spezialisiert auf Datenarchitektur, Backend-Entwicklung und technische Führung.",
+      "profileLink": "Profil auf Freelancermap",
+      "profileUrl": "https://www.freelancermap.de/profil/timo-parlison"
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Impressum",
+      "company": "Parlison Code Couture GmbH",
+      "represented": "Vertreten durch",
+      "director": "Geschäftsführer: Timo {/* TODO: Nachname */}",
+      "contact": "Kontakt",
+      "address": {
+        "street": "{/* TODO: Straße und Hausnummer */}",
+        "city": "{/* TODO: PLZ und Stadt */}",
+        "country": "Deutschland"
+      },
+      "phone": "{/* TODO: Telefonnummer */}",
+      "email": "{/* TODO: E-Mail-Adresse */}",
+      "registration": "Registereintrag",
+      "court": "Registergericht: {/* TODO: Amtsgericht */}",
+      "number": "Registernummer: {/* TODO: HRB-Nummer */}",
+      "vat": "Umsatzsteuer-ID",
+      "vatNumber": "{/* TODO: USt-IdNr. */}",
+      "responsibility": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+      "dispute": "Streitschlichtung",
+      "disputeText": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "intro": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung personenbezogener Daten bei der Nutzung unserer Website.",
+      "sections": {
+        "responsible": {
+          "title": "1. Verantwortlicher",
+          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist die Parlison Code Couture GmbH. Kontaktdaten finden Sie im Impressum."
+        },
+        "hosting": {
+          "title": "2. Hosting",
+          "content": "Diese Website wird bei einem externen Dienstleister gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln."
+        },
+        "logs": {
+          "title": "3. Server-Log-Dateien",
+          "content": "Der Provider der Seiten erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind: Browsertyp und Browserversion, verwendetes Betriebssystem, Referrer URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage, IP-Adresse. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen."
+        },
+        "cookies": {
+          "title": "4. Cookies",
+          "content": "Diese Website verwendet keine Tracking-Cookies. Es werden lediglich technisch notwendige Cookies verwendet, die für den Betrieb der Website erforderlich sind (z.B. Spracheinstellung)."
+        },
+        "contact": {
+          "title": "5. Kontaktaufnahme",
+          "content": "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+        },
+        "rights": {
+          "title": "6. Ihre Rechte",
+          "content": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Zudem haben Sie ein Widerspruchsrecht gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit. Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren."
+        },
+        "fonts": {
+          "title": "7. Webfonts",
+          "content": "Diese Website verwendet selbst gehostete Schriftarten. Es werden keine Verbindungen zu externen Servern (wie Google Fonts) hergestellt. Alle Schriftdateien werden lokal von unserem Server geladen."
+        }
+      }
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "sections": {
+        "scope": {
+          "title": "§ 1 Geltungsbereich",
+          "content": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge zwischen der Parlison Code Couture GmbH und ihren Kunden über Softwareentwicklung, IT-Beratung und damit verbundene Dienstleistungen."
+        },
+        "contract": {
+          "title": "§ 2 Vertragsschluss",
+          "content": "Unsere Angebote sind freibleibend. Ein Vertrag kommt erst durch unsere schriftliche Auftragsbestätigung oder durch Beginn der Leistungserbringung zustande."
+        },
+        "services": {
+          "title": "§ 3 Leistungen",
+          "content": "Art und Umfang der Leistungen ergeben sich aus der jeweiligen Leistungsbeschreibung oder dem Angebot. Änderungen des Leistungsumfangs bedürfen der Schriftform."
+        },
+        "payment": {
+          "title": "§ 4 Vergütung und Zahlung",
+          "content": "Die Vergütung richtet sich nach der vereinbarten Preisliste oder dem Angebot. Rechnungen sind innerhalb von 14 Tagen nach Rechnungsstellung ohne Abzug zahlbar."
+        },
+        "liability": {
+          "title": "§ 5 Haftung",
+          "content": "Wir haften unbeschränkt für Vorsatz und grobe Fahrlässigkeit. Für leichte Fahrlässigkeit haften wir nur bei Verletzung wesentlicher Vertragspflichten und begrenzt auf den vorhersehbaren, vertragstypischen Schaden."
+        },
+        "confidentiality": {
+          "title": "§ 6 Geheimhaltung",
+          "content": "Beide Parteien verpflichten sich, alle im Rahmen der Zusammenarbeit erlangten vertraulichen Informationen geheim zu halten und nur für die vereinbarten Zwecke zu verwenden."
+        },
+        "ip": {
+          "title": "§ 7 Nutzungsrechte",
+          "content": "Nach vollständiger Bezahlung räumen wir dem Kunden die vereinbarten Nutzungsrechte an den erstellten Werken ein. Bis zur vollständigen Bezahlung behalten wir uns alle Rechte vor."
+        },
+        "final": {
+          "title": "§ 8 Schlussbestimmungen",
+          "content": "Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz unserer Gesellschaft. Sollten einzelne Bestimmungen unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt."
+        }
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Maßgeschneiderte Software mit Stil.",
+    "copyright": "© {year} Parlison Code Couture GmbH. Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert leider nicht.",
+    "backHome": "Zur Startseite"
+  }
+}

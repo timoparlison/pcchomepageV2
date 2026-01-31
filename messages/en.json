@@ -1,0 +1,259 @@
+{
+  "common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "getStarted": "Get started",
+    "backToHome": "Back to home"
+  },
+  "nav": {
+    "home": "Home",
+    "platforms": "Vibe Starter",
+    "erp": "ERP System",
+    "rental": "Rental Platform",
+    "talent": "Talent Network",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "hero": {
+    "badge": "Software Development & IT Consulting",
+    "title": "Code with Style.",
+    "titleHighlight": "Solutions with Substance.",
+    "description": "We combine technical excellence with entrepreneurial thinking. Custom software, experienced specialists, and innovative platforms for your success.",
+    "cta": "Explore Projects",
+    "ctaSecondary": "Contact"
+  },
+  "mission": {
+    "label": "Our Vision",
+    "statement": "A world in which every company can design its own software.",
+    "tagline": "A future",
+    "taglineEnd": "in which software is no longer a bottleneck, but an expression of your ideas."
+  },
+  "businessAreas": {
+    "title": "Our Business Areas",
+    "subtitle": "Three pillars for digital excellence",
+    "sparring": {
+      "title": "Vibecode Sparring",
+      "description": "AI-powered development with experienced architects. We work with Cursor, Claude, and modern AI tools to build better software faster.",
+      "features": ["AI Pair Programming", "Code Reviews", "Architecture Consulting"]
+    },
+    "talent": {
+      "title": "Talent Network",
+      "description": "Experienced IT specialists for your projects. Developers, data engineers, and architects with proven expertise.",
+      "features": ["Senior Developers", "Data Engineers", "Solution Architects"]
+    },
+    "platforms": {
+      "title": "Vibe Starter",
+      "description": "Ready-made starter templates and boilerplates for quick project launches. From ERP systems to specialized industry solutions.",
+      "features": ["Starter Templates", "Industry Solutions", "SaaS Boilerplates"]
+    }
+  },
+  "about": {
+    "title": "About Parlison Code Couture",
+    "description": "Founded by experienced IT entrepreneurs, we combine technical expertise with entrepreneurial vision. Our name stands for precise craftsmanship in software development – Code Couture.",
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "description": "Clean code, thoughtful architecture, sustainable solutions."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Modern technologies applied meaningfully, not as an end in themselves."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "Long-term collaboration at eye level."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready for Your Next Project?",
+    "description": "Let's find out together how we can support you.",
+    "button": "Get in Touch"
+  },
+  "platforms": {
+    "title": "Vibe Starter",
+    "subtitle": "Ready-made starter templates for quick project launches.",
+    "erp": {
+      "title": "ERP System",
+      "subtitle": "Integrated Enterprise Solution",
+      "description": "A modern, modular ERP system specifically designed for medium-sized businesses. Flexibly customizable and seamlessly integrable.",
+      "features": {
+        "modular": {
+          "title": "Modular Architecture",
+          "description": "Choose only the modules you need. Expand as required."
+        },
+        "integration": {
+          "title": "Seamless Integration",
+          "description": "API-first design for easy connection to existing systems."
+        },
+        "analytics": {
+          "title": "Real-time Analytics",
+          "description": "Dashboards and reports for data-driven decisions."
+        },
+        "cloud": {
+          "title": "Cloud-Native",
+          "description": "Scalable, secure, and accessible from anywhere."
+        }
+      }
+    },
+    "rental": {
+      "title": "Rental Platform",
+      "subtitle": "Digital Rental Solution",
+      "description": "A specialized platform for rental businesses. From booking to management to billing – everything in one system.",
+      "features": {
+        "booking": {
+          "title": "Online Booking",
+          "description": "24/7 availability for your customers with an intuitive booking process."
+        },
+        "inventory": {
+          "title": "Inventory Management",
+          "description": "Overview of all items, availability, and maintenance cycles."
+        },
+        "billing": {
+          "title": "Automatic Billing",
+          "description": "Invoicing, dunning, and payment processing."
+        },
+        "reporting": {
+          "title": "Reporting",
+          "description": "Utilization analysis and revenue reports at the push of a button."
+        }
+      }
+    }
+  },
+  "talent": {
+    "title": "Talent Network",
+    "subtitle": "Experienced IT specialists for your projects",
+    "description": "We connect highly qualified freelancers and experts for demanding IT projects. All candidates are personally vetted and have proven project experience.",
+    "roles": {
+      "developer": {
+        "title": "Senior Developer",
+        "description": "Full-stack and specialized developers for web, mobile, and backend."
+      },
+      "dataEngineer": {
+        "title": "Data Engineer",
+        "description": "Experts for data pipelines, ETL processes, and data warehousing."
+      },
+      "architect": {
+        "title": "Solution Architect",
+        "description": "Experienced architects for complex system landscapes."
+      },
+      "devops": {
+        "title": "DevOps Engineer",
+        "description": "Specialists for CI/CD, cloud infrastructure, and automation."
+      }
+    },
+    "founder": {
+      "title": "Founder & Lead Consultant",
+      "name": "Timo",
+      "description": "Over 15 years of experience in software development and IT consulting. Specialized in data architecture, backend development, and technical leadership.",
+      "profileLink": "Profile on Freelancermap",
+      "profileUrl": "https://www.freelancermap.de/profil/timo-parlison"
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Legal Notice",
+      "company": "Parlison Code Couture GmbH",
+      "represented": "Represented by",
+      "director": "Managing Director: Timo {/* TODO: Last name */}",
+      "contact": "Contact",
+      "address": {
+        "street": "{/* TODO: Street and number */}",
+        "city": "{/* TODO: Postal code and city */}",
+        "country": "Germany"
+      },
+      "phone": "{/* TODO: Phone number */}",
+      "email": "{/* TODO: Email address */}",
+      "registration": "Registration",
+      "court": "Register Court: {/* TODO: Local court */}",
+      "number": "Registration Number: {/* TODO: HRB number */}",
+      "vat": "VAT ID",
+      "vatNumber": "{/* TODO: VAT ID number */}",
+      "responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
+      "dispute": "Dispute Resolution",
+      "disputeText": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "The protection of your personal data is important to us. In this privacy policy, we inform you about the processing of personal data when using our website.",
+      "sections": {
+        "responsible": {
+          "title": "1. Data Controller",
+          "content": "The party responsible for data processing on this website is Parlison Code Couture GmbH. You can find contact details in the legal notice."
+        },
+        "hosting": {
+          "title": "2. Hosting",
+          "content": "This website is hosted by an external service provider. The personal data collected on this website is stored on the host's servers. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website access, and other data generated through a website."
+        },
+        "logs": {
+          "title": "3. Server Log Files",
+          "content": "The provider of the pages automatically collects and stores information in server log files that your browser automatically transmits to us. These are: browser type and version, operating system used, referrer URL, hostname of the accessing computer, time of the server request, IP address. This data is not merged with other data sources."
+        },
+        "cookies": {
+          "title": "4. Cookies",
+          "content": "This website does not use tracking cookies. Only technically necessary cookies are used that are required for the operation of the website (e.g., language setting)."
+        },
+        "contact": {
+          "title": "5. Contact",
+          "content": "If you contact us by email, your details including the contact data you provide there will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We will not pass on this data without your consent."
+        },
+        "rights": {
+          "title": "6. Your Rights",
+          "content": "You have the right to information, correction, deletion, and restriction of processing of your personal data. You also have the right to object to processing and the right to data portability. You have the right to complain to a supervisory authority."
+        },
+        "fonts": {
+          "title": "7. Web Fonts",
+          "content": "This website uses self-hosted fonts. No connections to external servers (such as Google Fonts) are made. All font files are loaded locally from our server."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "sections": {
+        "scope": {
+          "title": "§ 1 Scope",
+          "content": "These General Terms and Conditions apply to all contracts between Parlison Code Couture GmbH and its customers for software development, IT consulting, and related services."
+        },
+        "contract": {
+          "title": "§ 2 Contract Formation",
+          "content": "Our offers are non-binding. A contract is only concluded through our written order confirmation or by the commencement of service provision."
+        },
+        "services": {
+          "title": "§ 3 Services",
+          "content": "The type and scope of services result from the respective service description or offer. Changes to the scope of services require written form."
+        },
+        "payment": {
+          "title": "§ 4 Remuneration and Payment",
+          "content": "Remuneration is based on the agreed price list or offer. Invoices are payable within 14 days of invoicing without deduction."
+        },
+        "liability": {
+          "title": "§ 5 Liability",
+          "content": "We are fully liable for intent and gross negligence. For slight negligence, we are only liable for breach of material contractual obligations and limited to the foreseeable, contract-typical damage."
+        },
+        "confidentiality": {
+          "title": "§ 6 Confidentiality",
+          "content": "Both parties undertake to keep confidential all confidential information obtained in the course of cooperation and to use it only for the agreed purposes."
+        },
+        "ip": {
+          "title": "§ 7 Rights of Use",
+          "content": "After full payment, we grant the customer the agreed rights of use to the created works. Until full payment, we reserve all rights."
+        },
+        "final": {
+          "title": "§ 8 Final Provisions",
+          "content": "The law of the Federal Republic of Germany applies. The place of jurisdiction, to the extent legally permissible, is the registered office of our company. Should individual provisions be invalid, the validity of the remaining provisions shall remain unaffected."
+        }
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Custom software with style.",
+    "copyright": "© {year} Parlison Code Couture GmbH. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "backHome": "Back to Home"
+  }
+}
