@@ -26,9 +26,9 @@
   },
   "mission": {
     "label": "Unsere Vision",
-    "statement": "Wir träumen von einer Welt in der jedes Unternehmen seine Software selbst gestalten (maßschneidern) kann.",
+    "statement": "Wir träumen von einer Welt in der jedes Unternehmen seine Software selbst maßschneidern kann.",
     "subline": "Kreativ. Maßgeschneidert. Unabhängig.",
-    "subline2": "Software als Ausdruck eurer Ideen – nicht als Vorgabe großer Konzerne."
+    "subline2": "Software als Ausdruck eurer Ideen – nicht als Vorgabe anderer."
   },
   "businessAreas": {
     "title": "Unsere Geschäftsbereiche",
@@ -46,7 +46,7 @@
     "platforms": {
       "title": "Vibe Starter",
       "description": "Nicht bei Null anfangen: Durchdachte Vorlagen, die Sie mit Lovable oder Claude Code zu Ihrer Lösung machen – bei Bedarf mit Experten an Ihrer Seite.",
-      "features": ["Starter Templates", "Branchenlösungen", "ERP", "Vermietungsplattform", "Schulungsplattform"]
+      "features": ["Starter Templates", "ERP", "Vermietungsplattform", "Schulungsplattform", "CRM"]
     }
   },
   "about": {
