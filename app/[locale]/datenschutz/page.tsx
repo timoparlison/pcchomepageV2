@@ -26,10 +26,13 @@ export default async function PrivacyPage({ params }: Props) {
 
   const sections = [
     'responsible',
+    'legal',
+    'ssl',
     'hosting',
     'logs',
     'cookies',
     'contact',
+    'retention',
     'rights',
     'fonts',
   ];
@@ -38,9 +41,13 @@ export default async function PrivacyPage({ params }: Props) {
     <section className="py-20">
       <Container>
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-text-primary mb-8">
+          <h1 className="text-4xl font-bold text-text-primary mb-4">
             {t('title')}
           </h1>
+
+          <p className="text-sm text-text-muted mb-8">
+            {t('lastUpdated')}
+          </p>
 
           <p className="text-lg text-text-secondary mb-12">
             {t('intro')}

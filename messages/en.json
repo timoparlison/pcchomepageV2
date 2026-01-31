@@ -204,71 +204,47 @@
     "privacy": {
       "title": "Privacy Policy",
       "intro": "The protection of your personal data is important to us. In this privacy policy, we inform you about the processing of personal data when using our website.",
+      "lastUpdated": "Last updated: January 2025",
       "sections": {
         "responsible": {
           "title": "1. Data Controller",
-          "content": "The party responsible for data processing on this website is Parlison Code Couture UG. You can find contact details in the legal notice."
+          "content": "The party responsible for data processing on this website is Parlison Code Couture UG (in formation), Gutenbergstr. 14, 28816 Stuhr, Germany. You can find contact details in the legal notice."
+        },
+        "legal": {
+          "title": "2. Legal Basis",
+          "content": "The processing of personal data is carried out on the basis of Art. 6 (1) GDPR. Where we obtain consent for processing operations, Art. 6 (1) lit. a GDPR serves as the legal basis. For processing to fulfill a contract, Art. 6 (1) lit. b GDPR is the basis. For the protection of legitimate interests (e.g., operation of the website), Art. 6 (1) lit. f GDPR is the legal basis."
+        },
+        "ssl": {
+          "title": "3. SSL/TLS Encryption",
+          "content": "For security reasons and to protect the transmission of confidential content, this website uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the address line of the browser changes from \"http://\" to \"https://\" and by the lock symbol in your browser line."
         },
         "hosting": {
-          "title": "2. Hosting",
-          "content": "This website is hosted by an external service provider. The personal data collected on this website is stored on the host's servers. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website access, and other data generated through a website."
+          "title": "4. Hosting",
+          "content": "This website is hosted by an external service provider. The personal data collected on this website is stored on the host's servers. This may include IP addresses, contact requests, meta and communication data, contact details, names, website access, and other data generated through a website. The legal basis is Art. 6 (1) lit. f GDPR (legitimate interest in reliable web hosting)."
         },
         "logs": {
-          "title": "3. Server Log Files",
-          "content": "The provider of the pages automatically collects and stores information in server log files that your browser automatically transmits to us. These are: browser type and version, operating system used, referrer URL, hostname of the accessing computer, time of the server request, IP address. This data is not merged with other data sources."
+          "title": "5. Server Log Files",
+          "content": "The provider of the pages automatically collects and stores information in server log files that your browser automatically transmits to us. These are: browser type and version, operating system used, referrer URL, hostname of the accessing computer, time of the server request, IP address. This data is not merged with other data sources and is deleted after 7 days at the latest. The legal basis is Art. 6 (1) lit. f GDPR."
         },
         "cookies": {
-          "title": "4. Cookies",
-          "content": "This website does not use tracking cookies. Only technically necessary cookies are used that are required for the operation of the website (e.g., language setting)."
+          "title": "6. Cookies",
+          "content": "This website does not use tracking cookies and no analytics tools like Google Analytics. Only technically necessary cookies are used that are required for the operation of the website (e.g., language setting). These cookies are automatically deleted when you close your browser session."
         },
         "contact": {
-          "title": "5. Contact",
-          "content": "If you contact us by email, your details including the contact data you provide there will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We will not pass on this data without your consent."
+          "title": "7. Contact",
+          "content": "If you contact us by email, your details including the contact data you provide will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We will not pass on this data without your consent. Processing is based on Art. 6 (1) lit. b GDPR (contract initiation) or Art. 6 (1) lit. f GDPR (legitimate interest). Your data will be deleted as soon as your inquiry has been conclusively processed and no legal retention obligations apply."
+        },
+        "retention": {
+          "title": "8. Data Retention",
+          "content": "Unless a more specific storage period has been stated within this privacy policy, your personal data will remain with us until the purpose for data processing no longer applies. If you assert a legitimate request for deletion or revoke consent to data processing, your data will be deleted unless we have other legally permissible reasons for storing it."
         },
         "rights": {
-          "title": "6. Your Rights",
-          "content": "You have the right to information, correction, deletion, and restriction of processing of your personal data. You also have the right to object to processing and the right to data portability. You have the right to complain to a supervisory authority."
+          "title": "9. Your Rights",
+          "content": "You have the following rights regarding your personal data: Right to information (Art. 15 GDPR), Right to rectification (Art. 16 GDPR), Right to erasure (Art. 17 GDPR), Right to restriction of processing (Art. 18 GDPR), Right to data portability (Art. 20 GDPR), Right to object (Art. 21 GDPR). You also have the right to lodge a complaint with a data protection supervisory authority."
         },
         "fonts": {
-          "title": "7. Web Fonts",
-          "content": "This website uses self-hosted fonts. No connections to external servers (such as Google Fonts) are made. All font files are loaded locally from our server."
-        }
-      }
-    },
-    "terms": {
-      "title": "Terms and Conditions",
-      "sections": {
-        "scope": {
-          "title": "§ 1 Scope",
-          "content": "These General Terms and Conditions apply to all contracts between Parlison Code Couture UG and its customers for software development, IT consulting, and related services."
-        },
-        "contract": {
-          "title": "§ 2 Contract Formation",
-          "content": "Our offers are non-binding. A contract is only concluded through our written order confirmation or by the commencement of service provision."
-        },
-        "services": {
-          "title": "§ 3 Services",
-          "content": "The type and scope of services result from the respective service description or offer. Changes to the scope of services require written form."
-        },
-        "payment": {
-          "title": "§ 4 Remuneration and Payment",
-          "content": "Remuneration is based on the agreed price list or offer. Invoices are payable within 14 days of invoicing without deduction."
-        },
-        "liability": {
-          "title": "§ 5 Liability",
-          "content": "We are fully liable for intent and gross negligence. For slight negligence, we are only liable for breach of material contractual obligations and limited to the foreseeable, contract-typical damage."
-        },
-        "confidentiality": {
-          "title": "§ 6 Confidentiality",
-          "content": "Both parties undertake to keep confidential all confidential information obtained in the course of cooperation and to use it only for the agreed purposes."
-        },
-        "ip": {
-          "title": "§ 7 Rights of Use",
-          "content": "After full payment, we grant the customer the agreed rights of use to the created works. Until full payment, we reserve all rights."
-        },
-        "final": {
-          "title": "§ 8 Final Provisions",
-          "content": "The law of the Federal Republic of Germany applies. The place of jurisdiction, to the extent legally permissible, is the registered office of our company. Should individual provisions be invalid, the validity of the remaining provisions shall remain unaffected."
+          "title": "10. Web Fonts",
+          "content": "This website uses self-hosted fonts (Google Fonts locally integrated). No connections to external servers are established. All font files are loaded locally from our server, so no data is transmitted to Google or other third parties."
         }
       }
     }

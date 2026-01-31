@@ -10,7 +10,6 @@ export default function Footer() {
   const legalLinks = [
     { href: `/${locale}/impressum`, label: t('nav.imprint') },
     { href: `/${locale}/datenschutz`, label: t('nav.privacy') },
-    { href: `/${locale}/agb`, label: t('nav.terms') },
   ];
 
   const currentYear = new Date().getFullYear();
