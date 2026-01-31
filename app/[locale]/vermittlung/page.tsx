@@ -24,7 +24,7 @@ export default async function TalentPage({ params }: Props) {
   const t = await getTranslations('talent');
   const tCommon = await getTranslations('common');
 
-  const roles = ['developer', 'dataEngineer', 'architect', 'devops'];
+  const roles = ['developer', 'consultant', 'architect', 'qa'];
 
   const roleIcons: Record<string, JSX.Element> = {
     developer: (
@@ -32,9 +32,9 @@ export default async function TalentPage({ params }: Props) {
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
       </svg>
     ),
-    dataEngineer: (
+    consultant: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>
     ),
     architect: (
@@ -42,18 +42,29 @@ export default async function TalentPage({ params }: Props) {
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
       </svg>
     ),
-    devops: (
+    qa: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
   };
 
   const roleColors: Record<string, string> = {
     developer: 'bg-accent-teal/10 text-accent-teal',
-    dataEngineer: 'bg-accent-coral/10 text-accent-coral',
+    consultant: 'bg-accent-coral/10 text-accent-coral',
     architect: 'bg-accent-violet/10 text-accent-violet',
-    devops: 'bg-accent-amber/10 text-accent-amber',
+    qa: 'bg-accent-amber/10 text-accent-amber',
+  };
+
+  const teamMembers = ['timo', 'lars', 'marcel', 'christian', 'alexei', 'kjell'];
+
+  const teamColors: Record<string, string> = {
+    timo: 'bg-accent-teal/10 text-accent-teal border-accent-teal/20',
+    lars: 'bg-accent-coral/10 text-accent-coral border-accent-coral/20',
+    kjell: 'bg-accent-amber/10 text-accent-amber border-accent-amber/20',
+    alexei: 'bg-accent-mint/10 text-accent-mint border-accent-mint/20',
+    christian: 'bg-accent-violet/10 text-accent-violet border-accent-violet/20',
+    marcel: 'bg-accent-coral/10 text-accent-coral border-accent-coral/20',
   };
 
   return (
@@ -91,40 +102,43 @@ export default async function TalentPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="bg-bg-secondary rounded-3xl border border-border p-8 md:p-12">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex flex-col md:flex-row items-start gap-8">
-              <div className="flex-shrink-0">
-                <div className="w-24 h-24 bg-accent-teal/10 rounded-2xl flex items-center justify-center">
-                  <svg className="w-12 h-12 text-accent-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
+        {/* Team Section */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
+              {t('team.title')}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {teamMembers.map((member) => (
+              <div
+                key={member}
+                className={`rounded-2xl border p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${teamColors[member]}`}
+              >
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 rounded-full bg-white/50 flex items-center justify-center text-2xl font-bold">
+                    {t(`team.${member}.name`).charAt(0)}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-text-primary">
+                      {t(`team.${member}.name`)}
+                    </h3>
+                    <p className="text-sm font-medium opacity-80">
+                      {t(`team.${member}.role`)}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex-grow">
-                <span className="text-sm text-accent-teal font-medium">
-                  {t('founder.title')}
-                </span>
-                <h3 className="text-2xl font-bold text-text-primary mt-1 mb-4">
-                  {t('founder.name')}
-                </h3>
-                <p className="text-text-secondary mb-6">
-                  {t('founder.description')}
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {t(`team.${member}.description`)}
                 </p>
-                <Button
-                  href={t('founder.profileUrl')}
-                  variant="secondary"
-                  external
-                >
-                  {t('founder.profileLink')} &rarr;
-                </Button>
               </div>
-            </div>
+            ))}
           </div>
         </div>
 
-        <div className="text-center mt-16">
-          <Button href="mailto:info@parlison-cloud-couture.cloud" size="lg">
+        <div className="text-center">
+          <Button href="mailto:info@parlison-code-couture.cloud" size="lg">
             {tCommon('contactUs')}
           </Button>
         </div>

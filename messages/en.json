@@ -128,28 +128,54 @@
     "description": "We connect highly qualified freelancers and experts for demanding IT projects. All candidates are personally vetted and have proven project experience.",
     "roles": {
       "developer": {
-        "title": "Senior Developer",
-        "description": "Full-stack and specialized developers for web, mobile, and backend."
+        "title": "Fullstack Developer",
+        "description": "Experienced developers for web applications – from frontend to backend, all from one source."
       },
-      "dataEngineer": {
-        "title": "Data Engineer",
-        "description": "Experts for data pipelines, ETL processes, and data warehousing."
+      "consultant": {
+        "title": "Business Consultant",
+        "description": "Industry experts for ERP, manufacturing, wholesale, and financing solutions."
       },
       "architect": {
-        "title": "Solution Architect",
-        "description": "Experienced architects for complex system landscapes."
+        "title": "Software Architect",
+        "description": "Experts for complex enterprise architectures and system landscapes."
       },
-      "devops": {
-        "title": "DevOps Engineer",
-        "description": "Specialists for CI/CD, cloud infrastructure, and automation."
+      "qa": {
+        "title": "QA & Test Automation",
+        "description": "Specialists for test management, test automation, and quality assurance."
       }
     },
-    "founder": {
-      "title": "Founder & Lead Consultant",
-      "name": "Timo",
-      "description": "Over 15 years of experience in software development and IT consulting. Specialized in data architecture, backend development, and technical leadership.",
-      "profileLink": "Profile on Freelancermap",
-      "profileUrl": "https://www.freelancermap.de/profil/timo-parlison"
+    "team": {
+      "title": "Our Network",
+      "timo": {
+        "role": "Founder & Lead Consultant",
+        "name": "Timo",
+        "description": "Over 20 years of experience in software development and IT consulting. Fullstack development, technical leadership, and domain expertise."
+      },
+      "lars": {
+        "role": "Principal Business Consultant",
+        "name": "Lars",
+        "description": "ERP expert and architect of our Vibe Starter templates. Experience in large corporations and SMEs. Industry expertise in manufacturing, wholesale, and executive management."
+      },
+      "kjell": {
+        "role": "Senior Business Consultant",
+        "name": "Kjell",
+        "description": "Specialist in leasing and financing solutions. Combines industry knowledge with technical understanding."
+      },
+      "alexei": {
+        "role": "QA & Test Automation Expert",
+        "name": "Alexei",
+        "description": "Expert in test management and test automation. Ensures your software works reliably."
+      },
+      "christian": {
+        "role": "Senior Fullstack Developer",
+        "name": "Christian",
+        "description": "Long-standing fullstack developer with broad technology expertise. From frontend to backend, all from one source."
+      },
+      "marcel": {
+        "role": "Principal Software Architect",
+        "name": "Marcel",
+        "description": "Your expert for highly complex enterprise architectures. Brings structure to demanding system landscapes."
+      }
     }
   },
   "legal": {
