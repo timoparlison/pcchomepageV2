@@ -35,18 +35,18 @@
     "subtitle": "Three pillars for digital excellence",
     "sparring": {
       "title": "Vibecode Sparring",
-      "description": "AI-powered development with experienced architects. We work with Cursor, Claude, and modern AI tools to build better software faster.",
-      "features": ["AI Pair Programming", "Code Reviews", "Architecture Consulting"]
+      "description": "You develop with Lovable, Claude Code, or other AI tools – we review, test, and advise. So your software is not only built fast, but also works.",
+      "features": ["Technical Setup", "Code Audits", "Automated Testing", "Architecture Consulting", "Tool Consulting"]
     },
     "talent": {
       "title": "Talent Network",
-      "description": "Experienced IT specialists for your projects. Developers, data engineers, and architects with proven expertise.",
-      "features": ["Senior Developers", "Data Engineers", "Solution Architects"]
+      "description": "Experienced IT specialists for your projects. Developers, business consultants from your industry, and architects with proven expertise.",
+      "features": ["Senior Developers", "Business Consultants", "Solution Architects", "Testers"]
     },
     "platforms": {
       "title": "Vibe Starter",
-      "description": "Ready-made starter templates and boilerplates for quick project launches. From ERP systems to specialized industry solutions.",
-      "features": ["Starter Templates", "Industry Solutions", "SaaS Boilerplates"]
+      "description": "Don't start from scratch: Well-designed templates that you can turn into your solution with Lovable or Claude Code – with experts at your side when needed.",
+      "features": ["Starter Templates", "ERP", "Rental Platform", "Training Platform", "CRM"]
     }
   },
   "about": {
@@ -154,7 +154,7 @@
       "lars": {
         "role": "Principal Business Consultant",
         "name": "Lars",
-        "description": "ERP expert and architect of our Vibe Starter templates. Experience in large corporations and SMEs. Industry expertise in manufacturing, wholesale, and executive management."
+        "description": "ERP expert and architect of our Vibe Starter ERP templates. Experience in large corporations and SMEs. Industry expertise in manufacturing, wholesale, and executive management."
       },
       "kjell": {
         "role": "Senior Business Consultant",
@@ -172,26 +172,26 @@
         "description": "Long-standing fullstack developer with broad technology expertise. From frontend to backend, all from one source."
       },
       "marcel": {
-        "role": "Principal Software Architect",
-        "name": "Marcel",
-        "description": "Your expert for highly complex enterprise architectures. Brings structure to demanding system landscapes."
+        "role": "DevOps Engineer",
+        "name": "Fabio",
+        "description": "Your expert for DevOps and development."
       }
     }
   },
   "legal": {
     "imprint": {
       "title": "Legal Notice",
-      "company": "Parlison Code Couture UG",
+      "company": "Parlison Code Couture UG (in formation)",
       "represented": "Represented by",
-      "director": "Managing Director: Timo {/* TODO: Last name */}",
+      "director": "Managing Director: Timo Külbel",
       "contact": "Contact",
       "address": {
-        "street": "{/* TODO: Street and number */}",
-        "city": "{/* TODO: Postal code and city */}",
+        "street": "Gutenbergstr. 14",
+        "city": "28816 Stuhr",
         "country": "Germany"
       },
-      "phone": "{/* TODO: Phone number */}",
-      "email": "{/* TODO: Email address */}",
+      "phone": "+49 176 841 38 695",
+      "email": "info@parlison-code-couture.cloud",
       "registration": "Registration",
       "court": "Register Court: {/* TODO: Local court */}",
       "number": "Registration Number: {/* TODO: HRB number */}",
