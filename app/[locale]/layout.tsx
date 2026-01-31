@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: {
       default: isGerman
-        ? 'Parlison Code Couture GmbH - Softwareentwicklung & IT-Beratung'
-        : 'Parlison Code Couture GmbH - Software Development & IT Consulting',
+        ? 'Parlison Code Couture UG - Softwareentwicklung & IT-Beratung'
+        : 'Parlison Code Couture UG - Software Development & IT Consulting',
       template: isGerman
-        ? '%s | Parlison Code Couture GmbH'
-        : '%s | Parlison Code Couture GmbH',
+        ? '%s | Parlison Code Couture UG'
+        : '%s | Parlison Code Couture UG',
     },
     description: isGerman
       ? 'Maßgeschneiderte Softwarelösungen, KI-gestützte Entwicklung und erfahrene IT-Spezialisten für Ihr Unternehmen.'
@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: isGerman
       ? ['Softwareentwicklung', 'IT-Beratung', 'ERP', 'KI', 'Freelancer', 'Deutschland']
       : ['Software Development', 'IT Consulting', 'ERP', 'AI', 'Freelancer', 'Germany'],
-    authors: [{ name: 'Parlison Code Couture GmbH' }],
-    creator: 'Parlison Code Couture GmbH',
+    authors: [{ name: 'Parlison Code Couture UG' }],
+    creator: 'Parlison Code Couture UG',
     metadataBase: new URL('https://parlison.de'),
     alternates: {
       canonical: `/${locale}`,
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale === 'de' ? 'de_DE' : 'en_US',
       alternateLocale: locale === 'de' ? 'en_US' : 'de_DE',
-      siteName: 'Parlison Code Couture GmbH',
+      siteName: 'Parlison Code Couture UG',
     },
     robots: {
       index: true,

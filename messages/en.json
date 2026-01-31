@@ -26,9 +26,9 @@
   },
   "mission": {
     "label": "Our Vision",
-    "statement": "A world in which every company can design its own software.",
-    "tagline": "A future",
-    "taglineEnd": "in which software is no longer a bottleneck, but an expression of your ideas."
+    "statement": "We dream of a world where every company can design (tailor) its own software.",
+    "subline": "Creative. Tailored. Independent.",
+    "subline2": "Software as an expression of your ideas – not dictated by big corporations."
   },
   "businessAreas": {
     "title": "Our Business Areas",
@@ -155,7 +155,7 @@
   "legal": {
     "imprint": {
       "title": "Legal Notice",
-      "company": "Parlison Code Couture GmbH",
+      "company": "Parlison Code Couture UG",
       "represented": "Represented by",
       "director": "Managing Director: Timo {/* TODO: Last name */}",
       "contact": "Contact",
@@ -173,7 +173,7 @@
       "vatNumber": "{/* TODO: VAT ID number */}",
       "responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
       "dispute": "Dispute Resolution",
-      "disputeText": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+      "disputeText": "We are not willing and not obliged to participate in dispute resolution proceedings before consumer arbitration boards."
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -181,7 +181,7 @@
       "sections": {
         "responsible": {
           "title": "1. Data Controller",
-          "content": "The party responsible for data processing on this website is Parlison Code Couture GmbH. You can find contact details in the legal notice."
+          "content": "The party responsible for data processing on this website is Parlison Code Couture UG. You can find contact details in the legal notice."
         },
         "hosting": {
           "title": "2. Hosting",
@@ -214,7 +214,7 @@
       "sections": {
         "scope": {
           "title": "§ 1 Scope",
-          "content": "These General Terms and Conditions apply to all contracts between Parlison Code Couture GmbH and its customers for software development, IT consulting, and related services."
+          "content": "These General Terms and Conditions apply to all contracts between Parlison Code Couture UG and its customers for software development, IT consulting, and related services."
         },
         "contract": {
           "title": "§ 2 Contract Formation",
@@ -249,7 +249,7 @@
   },
   "footer": {
     "tagline": "Custom software with style.",
-    "copyright": "© {year} Parlison Code Couture GmbH. All rights reserved."
+    "copyright": "© {year} Parlison Code Couture UG. All rights reserved."
   },
   "notFound": {
     "title": "Page Not Found",

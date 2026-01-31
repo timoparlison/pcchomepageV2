@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import Container from './Container';
 import LanguageSwitcher from '../ui/LanguageSwitcher';
@@ -22,10 +23,13 @@ export default function Header() {
       <Container>
         <nav className="flex items-center justify-between h-20">
           <Link href={`/${locale}`} className="flex items-center gap-3 group">
-            {/* Logo mark */}
-            <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-accent-coral via-accent-violet to-accent-teal flex items-center justify-center shadow-lg shadow-accent-violet/20 group-hover:shadow-accent-violet/30 transition-shadow">
-              <span className="font-sans font-bold text-white text-lg">P</span>
-            </div>
+            <Image
+              src="/logo.jpeg"
+              alt="Parlison Code Couture"
+              width={48}
+              height={48}
+              className="rounded-lg"
+            />
             <div className="flex flex-col">
               <span className="font-sans font-bold text-lg text-text-primary leading-tight">
                 Parlison

@@ -38,9 +38,9 @@ export default async function ImprintPage({ params }: Props) {
             </h2>
 
             <p className="text-text-secondary mb-6">
-              {/* TODO: Straße und Hausnummer */}
+              Gutenbergstr. 14
               <br />
-              {/* TODO: PLZ und Stadt */}
+              28816 Stuhr
               <br />
               {t('address.country')}
             </p>
@@ -50,41 +50,44 @@ export default async function ImprintPage({ params }: Props) {
             </h3>
             <p className="text-text-secondary mb-6">
               {/* TODO: Geschäftsführer vollständiger Name */}
-              Geschäftsführer: Timo {/* TODO: Nachname */}
+              Geschäftsführer: Timo Külbel
             </p>
 
             <h3 className="text-xl font-semibold text-text-primary mt-8 mb-4">
               {t('contact')}
             </h3>
             <p className="text-text-secondary mb-6">
-              {/* TODO: Telefonnummer */}
+              +49 176 841 38 695
               <br />
-              {/* TODO: E-Mail-Adresse */}
+              info@parlison-code-couture.cloud
             </p>
-
+            {/* Registereintrag und USt-ID werden nach Eintragung ergänzt
             <h3 className="text-xl font-semibold text-text-primary mt-8 mb-4">
               {t('registration')}
             </h3>
             <p className="text-text-secondary mb-6">
-              {/* TODO: Registergericht (z.B. Amtsgericht München) */}
+              Registergericht: ...
               <br />
-              {/* TODO: Registernummer (z.B. HRB 123456) */}
+              Registernummer: ...
             </p>
 
             <h3 className="text-xl font-semibold text-text-primary mt-8 mb-4">
               {t('vat')}
             </h3>
             <p className="text-text-secondary mb-6">
-              {/* TODO: Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz */}
+              USt-IdNr.: ...
             </p>
+            */}
 
             <h3 className="text-xl font-semibold text-text-primary mt-8 mb-4">
               {t('responsibility')}
             </h3>
             <p className="text-text-secondary mb-6">
-              Timo {/* TODO: Nachname */}
+              Timo Külbel
               <br />
-              {/* TODO: Adresse */}
+              Gutenbergstr. 14
+              <br />
+              28816 Stuhr
             </p>
 
             <h3 className="text-xl font-semibold text-text-primary mt-8 mb-4">

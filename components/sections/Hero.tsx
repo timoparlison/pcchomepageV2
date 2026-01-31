@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Container from '../layout/Container';
 import Button from '../ui/Button';
@@ -18,8 +19,20 @@ export default function Hero() {
 
       <Container>
         <div className="max-w-5xl mx-auto">
+          {/* Logo */}
+          <div className="flex justify-center mb-10 opacity-0 animate-fade-in">
+            <Image
+              src="/logo.jpeg"
+              alt="Parlison Code Couture"
+              width={180}
+              height={180}
+              className="rounded-2xl shadow-xl"
+              priority
+            />
+          </div>
+
           {/* Badge */}
-          <div className="flex justify-center mb-10 opacity-0 animate-fade-in-up">
+          <div className="flex justify-center mb-10 opacity-0 animate-fade-in-up animation-delay-200">
             <a
               href="https://vibecode-sparring.com"
               target="_blank"
@@ -35,25 +48,27 @@ export default function Hero() {
           </div>
 
           {/* Mission Statement */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-6 leading-tight opacity-0 animate-fade-in-up animation-delay-200">
+          <div className="text-center mb-10">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-text-primary leading-relaxed opacity-0 animate-fade-in-up animation-delay-400 max-w-4xl mx-auto mb-6">
               {m('statement')}
             </h1>
-            <p className="text-2xl md:text-3xl lg:text-4xl opacity-0 animate-fade-in-up animation-delay-400">
-              <span className="gradient-text font-semibold">{m('tagline')}</span>
-              <span className="text-text-secondary">, {m('taglineEnd')}</span>
+            <p className="text-lg md:text-xl font-medium gradient-text opacity-0 animate-fade-in-up animation-delay-600 mb-2">
+              {m('subline')}
+            </p>
+            <p className="text-base md:text-lg text-text-secondary opacity-0 animate-fade-in-up animation-delay-600">
+              {m('subline2')}
             </p>
           </div>
 
           {/* Color accent bar */}
-          <div className="flex justify-center gap-2 mb-12 opacity-0 animate-fade-in-up animation-delay-600">
+          <div className="flex justify-center gap-2 mb-12 opacity-0 animate-fade-in-up animation-delay-800">
             <div className="w-16 h-1.5 rounded-full bg-accent-coral" />
             <div className="w-16 h-1.5 rounded-full bg-accent-violet" />
             <div className="w-16 h-1.5 rounded-full bg-accent-teal" />
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up animation-delay-800">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up animation-delay-1000">
             <Button href="#business-areas" size="lg" variant="primary">
               {t('cta')}
             </Button>
@@ -66,7 +81,7 @@ export default function Hero() {
           </div>
 
           {/* Scroll indicator */}
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted opacity-0 animate-fade-in animation-delay-800">
+          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted opacity-0 animate-fade-in animation-delay-1000">
             <span className="text-xs uppercase tracking-widest">Scroll</span>
             <div className="w-6 h-10 rounded-full border-2 border-current flex justify-center pt-2">
               <div className="w-1 h-2 bg-current rounded-full animate-bounce" />

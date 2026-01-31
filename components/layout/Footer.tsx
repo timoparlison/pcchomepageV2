@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import Container from './Container';
 
@@ -24,9 +25,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href={`/${locale}`} className="inline-flex items-center gap-3 mb-6 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent-coral via-accent-violet to-accent-teal flex items-center justify-center">
-                <span className="font-sans font-bold text-white text-lg">P</span>
-              </div>
+              <Image
+                src="/logo.jpeg"
+                alt="Parlison Code Couture"
+                width={48}
+                height={48}
+                className="rounded-lg"
+              />
               <div>
                 <span className="font-sans font-bold text-xl text-text-primary">
                   Parlison
