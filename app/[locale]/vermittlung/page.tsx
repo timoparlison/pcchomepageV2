@@ -10,11 +10,73 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'talent' });
+  const isGerman = locale === 'de';
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title: isGerman
+      ? 'IT-Freelancer Vermittlung | Entwickler, Architekten & Consultants'
+      : 'IT Freelancer Network | Developers, Architects & Consultants',
+    description: isGerman
+      ? 'Erfahrene IT-Freelancer für Ihre Projekte: Fullstack Entwickler, Software Architekten, Business Consultants, QA & DevOps Experten. Persönlich geprüft, sofort verfügbar.'
+      : 'Experienced IT freelancers for your projects: Fullstack developers, software architects, business consultants, QA & DevOps experts. Personally vetted, immediately available.',
+    keywords: isGerman
+      ? [
+          'IT Freelancer Vermittlung',
+          'Fullstack Entwickler Freelancer',
+          'Software Architekt Freelancer',
+          'Business Consultant IT',
+          'QA Engineer Freelancer',
+          'DevOps Freelancer Deutschland',
+          'IT Experten Vermittlung',
+          'Freelancer Netzwerk IT',
+          'Senior Developer Freelancer',
+          'Testautomatisierung Experte',
+        ]
+      : [
+          'IT freelancer network',
+          'Fullstack developer freelancer',
+          'Software architect freelancer',
+          'Business consultant IT',
+          'QA engineer freelancer',
+          'DevOps freelancer Germany',
+          'IT experts network',
+          'Freelancer network IT',
+          'Senior developer freelancer',
+          'Test automation expert',
+        ],
+    alternates: {
+      canonical: `/${locale}/vermittlung`,
+      languages: {
+        de: '/de/vermittlung',
+        en: '/en/vermittlung',
+      },
+    },
+  };
+}
+
+// JSON-LD for Freelancer Network
+function generateJsonLd(locale: string) {
+  const isGerman = locale === 'de';
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'EmploymentAgency',
+    name: 'Parlison Code Couture - Talent Network',
+    description: isGerman
+      ? 'Vermittlung von erfahrenen IT-Freelancern: Entwickler, Architekten, Consultants und QA-Experten'
+      : 'Network of experienced IT freelancers: Developers, architects, consultants and QA experts',
+    url: `https://parlison-code-couture.cloud/${locale}/vermittlung`,
+    provider: {
+      '@type': 'Organization',
+      name: 'Parlison Code Couture UG',
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'Germany',
+    },
+    serviceType: isGerman
+      ? ['Fullstack Entwickler', 'Software Architekt', 'Business Consultant', 'QA Engineer', 'DevOps Engineer']
+      : ['Fullstack Developer', 'Software Architect', 'Business Consultant', 'QA Engineer', 'DevOps Engineer'],
   };
 }
 
@@ -68,8 +130,13 @@ export default async function TalentPage({ params }: Props) {
   };
 
   return (
-    <section className="py-20">
-      <Container>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateJsonLd(locale)) }}
+      />
+      <section className="py-20">
+        <Container>
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="inline-block px-4 py-2 bg-accent-teal/10 text-accent-teal rounded-full text-sm font-medium mb-6">
             {t('subtitle')}
@@ -142,7 +209,8 @@ export default async function TalentPage({ params }: Props) {
             {tCommon('contactUs')}
           </Button>
         </div>
-      </Container>
-    </section>
+        </Container>
+      </section>
+    </>
   );
 }

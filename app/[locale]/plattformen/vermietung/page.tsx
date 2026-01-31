@@ -10,11 +10,76 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'platforms.rental' });
+  const isGerman = locale === 'de';
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title: isGerman
+      ? 'Vermietungssoftware | Online-Buchung & Bestandsverwaltung'
+      : 'Rental Software | Online Booking & Inventory Management',
+    description: isGerman
+      ? 'Digitale Vermietungsplattform mit Online-Buchung, Bestandsverwaltung, automatischer Abrechnung und Reporting. Perfekt für Vermietungsunternehmen aller Art.'
+      : 'Digital rental platform with online booking, inventory management, automatic billing and reporting. Perfect for rental businesses of all types.',
+    keywords: isGerman
+      ? [
+          'Vermietungssoftware',
+          'Online Buchungssystem',
+          'Bestandsverwaltung Software',
+          'Mietverwaltung',
+          'Vermietungsplattform',
+          'Buchungssoftware',
+          'Gerätevermietung Software',
+          'Fahrzeugvermietung System',
+          'Verleih Software',
+          'Auslastungsanalyse',
+        ]
+      : [
+          'Rental software',
+          'Online booking system',
+          'Inventory management software',
+          'Rental management',
+          'Rental platform',
+          'Booking software',
+          'Equipment rental software',
+          'Vehicle rental system',
+          'Rental business software',
+          'Utilization analysis',
+        ],
+    alternates: {
+      canonical: `/${locale}/plattformen/vermietung`,
+      languages: {
+        de: '/de/plattformen/vermietung',
+        en: '/en/plattformen/vermietung',
+      },
+    },
+  };
+}
+
+// JSON-LD for Rental Software Product
+function generateJsonLd(locale: string) {
+  const isGerman = locale === 'de';
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: isGerman ? 'Vibe Starter Vermietungsplattform' : 'Vibe Starter Rental Platform',
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web-based',
+    description: isGerman
+      ? 'Digitale Vermietungslösung mit Online-Buchung, Bestandsverwaltung und automatischer Abrechnung'
+      : 'Digital rental solution with online booking, inventory management and automatic billing',
+    featureList: isGerman
+      ? ['Online-Buchung', 'Bestandsverwaltung', 'Automatische Abrechnung', 'Reporting']
+      : ['Online Booking', 'Inventory Management', 'Automatic Billing', 'Reporting'],
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      priceCurrency: 'EUR',
+    },
+    provider: {
+      '@type': 'Organization',
+      name: 'Parlison Code Couture UG',
+      url: 'https://parlison-code-couture.cloud',
+    },
   };
 }
 
@@ -50,46 +115,52 @@ export default async function RentalPage({ params }: Props) {
   };
 
   return (
-    <section className="py-20">
-      <Container>
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-accent-coral/10 text-accent-coral rounded-full text-sm font-medium mb-6">
-            {t('subtitle')}
-          </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
-            {t('title')}
-          </h1>
-          <p className="text-lg text-text-secondary">
-            {t('description')}
-          </p>
-        </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateJsonLd(locale)) }}
+      />
+      <section className="py-20">
+        <Container>
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-accent-coral/10 text-accent-coral rounded-full text-sm font-medium mb-6">
+              {t('subtitle')}
+            </span>
+            <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
+              {t('title')}
+            </h1>
+            <p className="text-lg text-text-secondary">
+              {t('description')}
+            </p>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-          {features.map((feature) => (
-            <Card key={feature} hover>
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-accent-coral/10 rounded-xl flex items-center justify-center text-accent-coral">
-                  {featureIcons[feature]}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+            {features.map((feature) => (
+              <Card key={feature} hover>
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent-coral/10 rounded-xl flex items-center justify-center text-accent-coral">
+                    {featureIcons[feature]}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-text-primary mb-2">
+                      {t(`features.${feature}.title`)}
+                    </h3>
+                    <p className="text-text-secondary">
+                      {t(`features.${feature}.description`)}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-text-primary mb-2">
-                    {t(`features.${feature}.title`)}
-                  </h3>
-                  <p className="text-text-secondary">
-                    {t(`features.${feature}.description`)}
-                  </p>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
+              </Card>
+            ))}
+          </div>
 
-        <div className="text-center">
-          <Button href="mailto:info@parlison-cloud-couture.cloud" size="lg">
-            {tCommon('contactUs')}
-          </Button>
-        </div>
-      </Container>
-    </section>
+          <div className="text-center">
+            <Button href="mailto:info@parlison-code-couture.cloud" size="lg">
+              {tCommon('contactUs')}
+            </Button>
+          </div>
+        </Container>
+      </section>
+    </>
   );
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://parlison.de';
+  const baseUrl = 'https://parlison-ocde-couture.cloud';
 
   return {
     rules: {
